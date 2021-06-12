@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" content="width=device-width,initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+
+    <link rel="shortcut icon" href="resources/favicon.ico">
+    <link rel="stylesheet" href="./vb_css.css">
+    <script src ="./vb_script.js" ></script>
+    <title>Vargi-Bots</title>
+    <header>
+        <div class="navbar">
+            <div class="ui icon item" style="background-color: #2abb9d; color: #fff;">
+                <i class="file text icon" style="font-size: 2em;"></i>
+            </div>
+            <img class="logo" src="https://eyic.e-yantra.org/img/eYantra_logo_whitetext.png" alt="e_yantra_logo">
+            <div >
+                <img class="user_img"  src="https://semantic-ui.com/images/avatar/small/jenny.jpg"> 
+            </div>
+            <span class="user">VB_1516</span>
+    </header>
+</head>
+
+
+<body>
+    <!-- <img class="home_img" src="https://eyic.e-yantra.org/img/eYantra_logo_whitetext.png"> -->
+    <div class="container">
+        <div class="row">
+            <h1 class="page-heading">Eyantra Dashboard</h1>
+        
+        </div>
+            
+        <span class="map_name">Map</span>
+        <span class="time_taken">Time Taken to be Shipped</span>
+        <div class="row">
+            <div class='custom-popup' id="map"></div>
+            <span id="column_chart"></span>
+        </div>
+        
+        <div class="table">
+            <span class="orders">Recent Orders</span>
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="search by OrderID">
+            <svg class="search_img" viewBox="0 0 16 16">
+                    <path d="M6.57,1A5.57,5.57,0,1,1,1,6.57,5.57,5.57,0,0,1,6.57,1m0-1a6.57,6.57,0,1,0,6.57,6.57A6.57,6.57,0,0,0,6.57,0Z"></path><rect x="11.84" y="9.87" width="2" height="5.93" transform="translate(-5.32 12.84) rotate(-45)"></rect>
+            </svg>
+            
+            <table class="table1 block" border='1'>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Item</th>
+                    <th>Priority</th>
+                    <th>City</th>
+                    <th>Dispatched</th>
+                    <th>Shipped</th>
+                    <th>Order Date and Time</th>
+                    <th>Dispatch Date and Time</th>
+                    <th>Shipping Date and Time</th>
+                    <th>Time Taken</th>
+                </tr>
+                <tbody id="tableContent">
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

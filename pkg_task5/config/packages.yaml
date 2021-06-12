@@ -1,0 +1,14 @@
+# Parameter server file to store color of packages. Default is 'None'
+packages:
+  packagen00: "None"
+  packagen01: "None"
+  packagen02: "None"
+  packagen10: "None"
+  packagen11: "None"
+  packagen12: "None"
+  packagen20: "None"
+  packagen21: "None"
+  packagen22: "None"
+  packagen30: "None"
+  packagen31: "None"
+  packagen32: "None"

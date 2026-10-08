@@ -1,5 +1,5 @@
 # Amazon_Warehouse_Simulation
-Amazon Warehouse management Simulation using Robot Operating System (ROS) for monitoring stocks, shipping & delivery of products. This was done as a part of Eyantra Robotics Competition(2020-2021)
+Amazon Warehouse management Simulation using Robot Operating System (ROS) for monitoring stocks, shipping & delivery of products. This was done as a part of Eyantra Robotics Competition(2020-2021) and showcased in Finals.
 
 Click below to watch the demo👇️
 
